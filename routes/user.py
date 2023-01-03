@@ -39,7 +39,7 @@ async def find_all():
         return {f"error : {e}"}
 
 
-@use.get("/one_student")
+@use.get("/one-student")
 async def find_one(id: int):
     try:
         print("find one")
